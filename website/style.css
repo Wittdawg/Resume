@@ -54,14 +54,14 @@
 .education {
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgba(128, 122, 122, 0.5)
+    background-color: rgba(218, 210, 192, 0.932)
 }
 
 .experience,
 .leadership {
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgba(183, 21, 21, 0.5)
+    background-color: rgb(180, 105, 105)
 }
 
 
