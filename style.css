@@ -10,7 +10,7 @@
     top: 0;
     width: 230px;
     height: 100%;
-    background-color: #962222;
+    background-color: #8b1919;
     color: rgb(227, 227, 227);
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
@@ -50,18 +50,24 @@
     margin-left: 270px;
 }
 
-.intro,
-.education {
+.intro {
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgba(189, 171, 171, 0.5)
+    color: black;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://i.pinimg.com/736x/6b/48/b4/6b48b419edc8a26917394d8e56988198.jpg');
+}
+
+.education {
+    padding: 30px;
+
 }
 
 .experience,
 .leadership {
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgba(183, 30, 30, 0.704)
+    background-color: rgb(232, 228, 228)
 }
 
 
@@ -80,12 +86,17 @@
     margin-bottom: 20px;
 }
 
-.intro p,
+.intro p {
+    padding: 20px;
+    text-indent: 20px;
+}
+
 .experience p,
 .education p,
-.leadership p,
-.leadership ul {
-    padding: 20px
+.leadership ul,
+.leadership p {
+    padding: 10px;
+    text-indent: 20px;
 }
 
 .side-banner,
