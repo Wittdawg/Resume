@@ -68,11 +68,12 @@ ul li:hover ul.dropdown {
     display: block;
 }
 
-header ul li a div .menu {
+header ul li a .menu {
     margin: 0;
     /* Remove any default margin */
     padding: 5px;
     /* Optional: Adjust padding to your liking */
+    display: block;
 }
 
 .side-banner {
