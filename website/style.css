@@ -1,7 +1,79 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: Raleway;
     margin: 0;
     padding: 0;
+}
+
+header ul div .menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+header ul {
+    margin-right: 20px;
+    list-style: none;
+    background: white;
+}
+
+header ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header ul li {
+    display: block;
+    padding: 20px 25px;
+    color: rgb(210, 205, 205);
+    text-decoration: none;
+    text-align: right;
+    font-size: 20px;
+}
+
+header ul li ul.dropdown li {
+    display: block;
+    text-align: center;
+}
+
+header ul li ul.dropdown {
+    right: 0;
+    width: 30%;
+    background: transparent;
+    opacity: 1;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+header ul li a:hover {
+    background: none;
+}
+
+header ul li a {
+    color: #8b1919;
+    /* Default color for links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+header ul li a:visited {
+    color: black;
+    /* Color for visited links */
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+header ul li a .menu {
+    margin: 0;
+    /* Remove any default margin */
+    padding: 5px;
+    /* Optional: Adjust padding to your liking */
+    display: block;
 }
 
 .side-banner {
@@ -10,10 +82,10 @@
     top: 0;
     width: 230px;
     height: 100%;
-    background-color: #962222;
-    color: rgb(251, 251, 251);
+    background-color: #8b1919;
+    color: rgb(227, 227, 227);
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.533);
 }
 
 .side-banner #profile {
@@ -25,6 +97,10 @@
     border-radius: 5%;
     width: 170px;
     height: auto;
+}
+
+.side-banner .side-titles #contact p {
+    border: 2px solid blue;
 }
 
 
@@ -50,18 +126,25 @@
     margin-left: 270px;
 }
 
-.intro,
-.education {
+.intro {
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgba(218, 210, 192, 0.932)
+    color: black;
+    background-color: rgb(255, 255, 255);
+    background-image: url(Photo/Banner_WhiteToRed.pdf);
+    background-size: cover;
+}
+
+.education {
+    padding: 30px;
+    background-color: white;
 }
 
 .experience,
 .leadership {
     padding: 30px;
     box-sizing: border-box;
-    background-color: rgb(180, 105, 105)
+    background-color: rgb(232, 228, 228)
 }
 
 
@@ -80,12 +163,17 @@
     margin-bottom: 20px;
 }
 
-.intro p,
+.intro p {
+    padding: 20px;
+    text-indent: 20px;
+}
+
 .experience p,
 .education p,
-.leadership p,
-.leadership ul {
-    padding: 20px
+.leadership ul,
+.leadership p {
+    padding: 10px;
+    text-indent: 20px;
 }
 
 .side-banner,
@@ -129,4 +217,44 @@
 #phone,
 #mail {
     margin-right: 7px;
+}
+
+@media (max-width: 768px) {
+    .side-banner {
+        width: 100%;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .content {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .side-banner {
+        padding: 10px;
+    }
+
+    .side-banner #profile img {
+        width: 100px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    h2,
+    h5,
+    h6 {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    h3,
+    h4 {
+        font-size: 14px;
+    }
 }
