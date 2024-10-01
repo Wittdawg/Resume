@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header ul div #menu {
+header ul div .menu {
     width: 35px;
     height: 5px;
     background-color: black;
@@ -52,8 +52,27 @@ header ul li a:hover {
     background: none;
 }
 
+header ul li a {
+    color: #8b1919;
+    /* Default color for links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+header ul li a:visited {
+    color: black;
+    /* Color for visited links */
+}
+
 ul li:hover ul.dropdown {
     display: block;
+}
+
+header ul li a div .menu {
+    margin: 0;
+    /* Remove any default margin */
+    padding: 5px;
+    /* Optional: Adjust padding to your liking */
 }
 
 .side-banner {
