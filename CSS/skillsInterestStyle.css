@@ -27,17 +27,19 @@ header ul li {
 header ul li ul.dropdown li {
     display: block;
     text-align: center;
+    padding: 5px;
 }
 
 header ul li ul.dropdown {
     right: 0;
-    width: 30%;
-    background: transparent;
-    opacity: 1;
+    width: 21%;
+    background: white;
+    opacity: .95;
     position: absolute;
     z-index: 999;
     display: none;
     min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 header ul li a:hover {
