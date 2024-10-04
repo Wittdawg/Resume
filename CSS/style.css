@@ -4,15 +4,10 @@
     padding: 0;
 }
 
-header ul div .menu {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
-
 header ul {
-    margin-right: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
     list-style: none;
     background: white;
 }
@@ -55,9 +50,13 @@ header ul li a:hover {
 
 header ul li a {
     color: #8b1919;
-    /* Default color for links */
     text-decoration: none;
-    /* Remove underline */
+}
+
+header ul li a .menu {
+    height: 5px;
+    padding: 5px;
+    font-weight: bold;
 }
 
 header ul li a:visited {
