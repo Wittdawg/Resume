@@ -33,30 +33,35 @@ header {
     width: 100%;
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 40%;
     justify-content: space-between;
 }
 
 .hello .title {
     opacity: 0;
     text-shadow: 0 3px 5px rgba(42, 16, 8, 0.523);
-    font-size: 40px;
+    font-size: clamp(1.5rem, 5vw, 3rem);
 
+}
+
+.title {
+    font-size: 2rem;
+    /* Scales well on all devices */
 }
 
 
 
 .hello #hey {
     font-style: italic;
-    margin-left: 170px;
+    margin-left: 10%;
     animation: fadeIn 1.5s forwards;
 }
 
 .hello #name {
-    transform: translateY(180px);
+    transform: translateY(40px);
     font-weight: bold;
-    margin-right: 100px;
-    animation: fadeIn 2s ease-in forwards;
+    margin-right: 5%;
+    animation: fadeIn 2.5s ease-in forwards;
 }
 
 @keyframes fadeIn {
