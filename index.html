@@ -5,138 +5,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Wittmann | Resume</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../static/css/index.css">
 </head>
-<header>
-    <ul>
-        <li>
-            <a href="#">
-                <div class="menu">-</div>
-                <div class="menu">-</div>
-                <div class="menu">-</div>
-            </a>
-            <ul class="dropdown">
-                <li><a href="skills+interests.html">Skills + Interests</a></li>
-            </ul>
-        </li>
-    </ul>
-
-
-</header>
+<div class="front-page">
+    <header>
+        <div class="cover-photo">
+            <img class="cover-img" src="../static\photos\MMRPhoto1.1.jpg">
+        </div>
+        <div class="hello">
+            <h1 class="title" id="hey">Hey, I'm</h1>
+            <h1 class="title" id="name">Adam Wittmann</h1>
+        </div>
+    </header>
+</div>
 
 <body>
-    <div class="side-banner">
-        <div id="profile">
-            <img src="Photo/MaristRowingHS.jpg" alt="Photo of Adam Wittmann">
+    <div class="introduction">
+        <div class="introduction_container">
+            <div class="title_container">
+                <hr class="title_hr">
+                <h2>My Journey</h2>
+                <hr class="title_hr">
+            </div>
+            <p class="introduction--text"> I'm a sophomore at Marist University rowing and studying computer science
+                with a
+                concentration in software
+                development.
+                I like to challenge myself with personal projects, i'm interested in the whole tech stack, and hope to
+                gain
+                new experience in
+                the form of an internship over next summer.
+                I enjoy learning about Artificial Intelligence and am interested in it's developement and application
+                within
+                the coming years.
+                My dream is to be a software engineer.
+            </p>
         </div>
-        <div id="side-content">
-            <header class="side-titles" id="name">Adam Wittmann</header>
-            <hr>
-            <p class="side-titles" id="contact">Get in Touch</p>
-            <ul>
-                <li>
-                    <img src="Photo/phonesymb.png" id="phone">
-                    <span>(716) 909-4981</span>
-                </li>
-                <li id="email">
-                    <img src="Photo/email.png" id="mail">
-                    <span>adamjwittmann@gmail.com</span>
-                </li>
-                <li id="linkedin">
-                    <img src="Photo/In-white.png" id="linkedin">
-                    <a href="https://www.linkedin.com/in/adam-wittmann-255b572b4">LinkedIn</a>
-                </li>
-                <li id="github">
-                    <img src="Photo/github-mark-white.png" id="git">
-                    <a href="https://github.com/AdamWittmann">GitHub</a>
-                </li>
-            </ul>
-            <hr>
-
+    </div>
+    <div class="experience">
+        <div class="experience_container">
+            <h2 class="experience-title">Ski Instructor at Holimont</h2>
+            <h4 class="experience-subhead">Feburary 2022 - Present</h4>
+            <p class="experience-text">Holimont is a premier private ski club that ensures the best service to members.
+                As a
+                ski instructor at Holimont, I teach individuals of all ages and skill levels, focusing on technique,
+                safety,
+                and building confidence on the slopes. The role involves creating personalized lesson plans, fostering a
+                supportive learning environment, and sharing my passion for skiing to help guests enjoy their time on
+                the
+                mountain.</p>
+        </div>
+        <div class="experience_container">
+            <h2 class="experience-title">Food Runner at Transit Valley Country Club</h2>
+            <h4 class="experience-subhead">July 2022 - July 2023</h4>
+            <p class="experience-text">At TVCC I worked closely with the preparation of the food and assisting chefs. I
+                also
+                communicated to and delivered food to the members, ensuring a timely meal. Communication and adapting to
+                quick changes were crucial in this role.</p>
+        </div>
+        <div class="experience_container">
+            <h2 class="experience-title">Landscaper</h2>
+            <h4 class="experience-subhead">April 2023 - August 2024</h4>
+            <p class="experience-text">A close friend and I independently landscaped homes in our area. I managed
+                workers,
+                created schedules, communicated with customers, and oversaw the quality of our work. This experience
+                taught
+                me valuable lessons in
+                self-discipline, communication, teamwork, and transparency. </p>
         </div>
     </div>
 
-    <div class="content">
-        <div class="intro">
-            <h1>Hello, World.</h1>
-            <p>
-                My name is Adam Wittmann, I am a computer science major, and rower at Marist College. I am currently
-                entering my sophomore year. I am actively seeking an internship for the summer of 2025, eager to learn
-                new coding languages and enhance
-                my skills. I'm studying CS with a focus in software development, but I hope to explore the field of AI.
-            </p>
-            <br>
+    <div class="projects_container">
+        <div class="title_container">
+            <hr class="title_hr--white">
+            <h2 class="projects-heading">My Creations</h2>
+            <hr class="title_hr--white">
         </div>
-        <div class="experience">
-            <h2>Work Experience</h2>
-            <h3>Landscaping</h3>
-            <p>April 2023 - Present</p>
-            <p>For the past two summers, a friend and I have independently landscaped homes in our town. My
-                responsibilities included managerial tasks, overseeing our team, and ensuring the quality of our work.
-                This experience taught me valuable lessons in self-discipline, communication, and teamwork.
-            </p>
-            <h3>Ski Instructing (Holimont)</h3>
-            <p>Febuary 2022 - Present</p>
-            <p>
-                Over the past few winters I spent my weekends teaching skiing to kids and adults. Through this position
-                I learned exellect and clear communication/instruction to kids, adults, and peers.
-            </p>
-            <h4>Food Running/Service (Transit Valley Country Club)</h4>
-            <p>July 2022 - July 2023</p>
-            <p>During my time as a food runner at Transit Valley Country Club, I providing excellent service, deepened
-                my time
-                management, and learned proper communication with both supervisors and customers.
-            </p>
+        <div class="columns">
+            <div class="project">
+                <h2 class="project-title">Auto Photo Transfer</h2>
+                <p class="project-description">
+                    Being super fed up with paying $2.99 for Icloud storage has inspired me to create an automated photo
+                    transfer that removes photos from my iphone, and pushes them onto a usb drive. After coding it I
+                    realized I
+                    need much more storage, and a more efficient way to transfer data. I plan to revisit this soon and
+                    make
+                    a
+                    personalized cloud like storage solution using a rasberry pi and a larger storage device.
+                </p>
+            </div>
+            <div class="project">
+                <h2 class="project-title">Filtr</h2>
+                <p class="project-description">
+                    In my SD2 class we interviewed clients about an app that they wanted to see, taking note of features
+                    they
+                    requested. My groups project was a super specific dating app. Due to time constraints for the class
+                    we
+                    were
+                    unable to make it as perfect as we imagined, but I was able to experience the whole tech stack and
+                    learn
+                    valuable skills like agile planning and teamwork. This project uses HTML, CSS, Python, Javascript,
+                    flask,
+                    and PostgreSQL.
+                </p>
+            </div>
+            <div class="project">
+                <h2 class="project-title">WNY Lights</h2>
+                <p class="project-description">
+                    This is ongoing, my friend hired me to create a website for his light installation business. The
+                    website
+                    is the same structure as my SD2 project, using flask and postgreSQL. I am using Digital Ocean to
+                    host
+                    it,
+                    although it wont be up officially until its completed.
+                </p>
+            </div>
         </div>
-        <div class="education">
-            <h5>Education</h5>
-            <b>Canisius High School '23</b>
-            <p>GPA: 3.7</p>
-
-            <p>I graduated from Canisius High School in 2023, consistently maintaining high honors throughout the
-                majority
-                of my time. My interest in programming began before high school when I took a summer course on coding
-                robots. During high school, I took classes such as AP Computer Science and Cybersecurity, where I
-                developed
-                a passion for coding. I started with C++, moved on to Python, and now work with Java while beginning to
-                learn HTML and CSS.</p>
-
-            <b>Marist College '27</b>
-            <p>GPA: <strong>3.609* </strong> (*Not overall, just for my major in CS)</p>
-            <p>I am a Dean's List student-athlete at Marist College, but I am also involed in greek life
-                and a brother at the Theta Delta Chi Fraternity.</p>
-        </div>
-        <div class="leadership">
-            <h6>Activities and Leadership</h6>
-            <b>Canisius High School Mens Varsity Crew Team</b>
-            <p>Rower</p>
-            <p>September 2020 - January 2023</p>
-            <ul>
-                <li>Sophomore Year: u17 4+ 4th place at Youth Nationals Regatta in Sarasota, Fl (1st Scholastic boat)
-                </li>
-                <li>Junior Year: u19 4+ 3rd place at Canadian Nationals in St. Catherines, ON</li>
-                <li>Developed team work, self-discipline, leadership, and communication.</li>
-                <li>Cleanups and Service in communities.</li>
-            </ul>
-            <br>
-            <b>Marist Mens Crew Team</b>
-            <p>Rower</p>
-            <p>September 2023 - Present</p>
-            <ul>
-                <li>Walk-on athlete</li>
-                <li>Participateed in Training and Regattas</li>
-                <li>Developed team work, discipline, and leadership</li>
-            </ul>
-            <br>
-            <b>Theta Delta Chi</b>
-            <p>Brother</p>
-            <p>April 2024 - Present</p>
-            <ul>
-                <li>Active involvement in fraternity activities and events.</li>
-                <li>Contributed to community service projects.</li>
-                <li>Developed leadership and organizational skills.</li>
-            </ul>
-        </div>
+    </div>
+    <div class="contact_container">
+        <p class="contact-title" id="contact">Get in Touch</p>
+        <ul>
+            <li>
+                <img src="../static/photos/iphone.png" id="phone">
+                <span>(716) 909-4981</span>
+            </li>
+            <li id="email">
+                <img src="../static/photos/mail.png" id="mail">
+                <span>adamjwittmann@gmail.com</span>
+            </li>
+            <li id="linkedin">
+                <img src="../static/photos/social.png" id="linkedin">
+                <a href="https://www.linkedin.com/in/adam-wittmann-255b572b4">LinkedIn</a>
+            </li>
+            <li id="github">
+                <img src="../static/photos/git.png" id="git">
+                <a href="https://github.com/AdamWittmann">GitHub</a>
+            </li>
+        </ul>
     </div>
 </body>
 
